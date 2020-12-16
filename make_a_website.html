@@ -76,13 +76,19 @@
 										<li>example</li>
 										<li>example</li>
 									</ol>
-<div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com%22%3Ehtml/ Comment Box</a> is loading comments...</div>
+<form>
+<textarea id="words" rows="10" cols="20">Enter comment</textarea>
+<input type="button" onclick="getwords()" value="Enter" /> <br>
+<p id="para"></p>
+</form>
 
- <link rel="stylesheet" type="text/css" href="http://www.htmlcommentbox.com/static/skins/default... />
-
- <script type="text/javascript" language="javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={  };} (function(){s=document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src", "http://www.htmlcommentbox.com/jread?page=%22+escap... && hcb_user.PAGE)||(""+window.location)).replace("+","%2B")+"&opts=470&num=10");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-
-										
+<script type="text/javascript">
+function getwords() {
+  text = words.value;
+  document.getElementById("para").innerHTML += '<p>'+text
+  document.getElementById("words").value = "enter"
+}
+</script>
 									<!-- media.net -->	
 									<div id="282120042">
    								 <script type="text/javascript">
