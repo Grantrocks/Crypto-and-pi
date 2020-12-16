@@ -76,11 +76,43 @@
 										<li>example</li>
 										<li>example</li>
 									</ol>
-<!-- begin wwww.htmlcommentbox.com -->
- <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
- <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
- <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24Z%2FCRJvyR5ZDelB.dGNCbA1"+"&opts=16862&num=10&ts=1608128479477");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com -->
+<h1>Comment's:</h1>
+<?php 
+$i  = addslashes($_POST['a']);
+$ip = addslashes($_POST['b']);
+$a  = addslashes($_POST['c']);
+$b  = addslashes($_POST['d']);
+if(isset($i) & isset($ip) & isset($a) & isset($b))
+{
+    $r = mysql_query("SELECT COUNT(*) FROM $db.ban WHERE ip=$ip"); //Check if banned
+    $r = mysql_fetch_array($r);
+    if(!$r[0]) //Phew, not banned
+    {
+        if(mysql_query("INSERT INTO $db.com VALUES ($a, $b, $ip, $i)"))
+        {
+            ?>
+            <script type="text/javascript">
+                window.location="/index.php?id=".<?php echo $i; ?>;
+            </script>
+            <?php
+        }
+        else echo "Error, in mysql query";  
+    }
+    else echo "Error, You are banned.";
+}
+$x = mysql_query("SELECT * FROM $db.com WHERE i=$i");
+while($r = mysql_fetch_object($x) echo '<div class="c">'.$r->a.'<p>'.$row->b.'</p> </div>';
+
+?>  
+<h1>Leave a comment, pl0x:</h1>
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+    <input type="hidden" name="a" value="<?php $echo $_GET['id']; ?>" />
+    <input type="hidden" name="b" value="<?php $echo $_SERVER['REMOTE_ADDR']; ?>" />
+    <input type="text" name="c" value="Name"/></br>
+    <textarea name="d">
+    </textarea>
+    <input type="submit" />
+</form>
 
 										
 									<!-- media.net -->	
