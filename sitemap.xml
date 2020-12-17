@@ -11,31 +11,31 @@
 
   <url>
        <loc>https://grantsjournal.cf/</loc>
-       <lastmod>2020-12-15T21:45:49+00:00</lastmod>
+       <lastmod>2020-12-17T16:34:06+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://grantsjournal.cf/index.html</loc>
-       <lastmod>2020-12-15T21:45:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://grantsjournal.cf/im_grant.html</loc>
-       <lastmod>2020-12-15T21:45:49+00:00</lastmod>
+       <lastmod>2020-12-17T16:34:06+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://grantsjournal.cf/make_a_website.html</loc>
-       <lastmod>2020-12-15T21:45:49+00:00</lastmod>
+       <lastmod>2020-12-17T16:34:06+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://grantsjournal.cf/ad_networks.html</loc>
+       <lastmod>2020-12-17T16:34:06+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://grantsjournal.cf/all_posts.html</loc>
-       <lastmod>2020-12-15T21:45:49+00:00</lastmod>
+       <lastmod>2020-12-17T16:34:06+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
