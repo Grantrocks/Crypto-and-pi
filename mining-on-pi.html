@@ -12,7 +12,7 @@
 
   gtag('config', 'G-DMDEY4V8P4');
 </script>
-		<title>How to Mine Crypto-Currency On The Raspberry Pi | Grant's Journal</title>
+		<title>How to Mine Crypto-Currency On The Raspberry Pi | Crypto & Pi</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -62,8 +62,28 @@
 										<code>sudo apt-get update</code>
 										<code>sudo apt-get upgrade</code>
 										<code>sudo apt-get full-upgrade</code>
+									        <p>If prompted to reboot with: <code>reboot</code>
 										
 							<hr class="major" />
+									<h2>Getting Dependencies</h2>
+									<p>So in order for this to work you need to have some dependencies installed that the miner uses to run. To install these run the following:</p>
+									<code>sudo apt-get install -y raspbian-nspawn-64</code>
+									<p>Once this finishes type: <code>ds64-shell</code> to enter the 64-bit terminal. Once you are inside the 64-bit terminal run: <code>sudo apt-get update</code><code>sudo apt-get upgrade</code><code>sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev</code> Once these finish reboot</p>
+									<hr class="major" />
+									<h2>Installing The Miner</h2>
+									<p>The final step in mining crypto-currency on the pi is installing the miner. In order to do this you need to run the following:
+										<code>git clone https://github.com/xmrig/xmrig.git</code>
+										<code>cd xmrig</code>
+										<code>mkdir build</code>
+										<code>cd build</code>
+										<code>cmake ..</code>
+										<code>make</code>
+										 Once this finishes you should already be in the directory in the 64-bit shell to run xmrig. But if not enter <code>cd xmrig</code><code>cd build</code> Once inside make sure you are inside the 64-bit shell inside the directorys. Edit the following to your standards such as the pool and monero address.
+										(NOTE: This is the only miner that works on the pi. All others work for 20 minutes then stop working. Also this can only mine monero ,but with guarda you can convert that monero into bitcoin. Also I choose minexmr.com becasue it seems to be the only monero mining pool that works with this.)
+										<code>./xmrig --donate-level 1 -o pool.minexmr.com:4444 -u 47HqXyfRx6HAhazGSaDp5p3VFyNMtDviQCPo1xHn5hVgezGY1eLiNW4bep9wmi2gKrH8BWXeGH9bYPU9NKcbehRqJSdKWLc -p Pi</code>
+										 Currently the mining address is mine and if you want to make money change it to your monero address. Also if you want to donate leave the <code>--donate-level 1</code> but if not remove it.
+										Thank you for reading and make sure to come back soon.</p>
+									<hr class="major" />
 									<script async="async" data-cfasync="false" src="//acheworry.com/6524532df4c577b02b43c064eac4e6f8/invoke.js"></script>
 <div id="container-6524532df4c577b02b43c064eac4e6f8"></div>
 								</section>
