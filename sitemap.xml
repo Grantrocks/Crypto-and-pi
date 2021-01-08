@@ -10,32 +10,44 @@
 <!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
 
   <url>
-       <loc>https://grantsjournal.cf/</loc>
-       <lastmod>2020-12-17T16:34:06+00:00</lastmod>
+       <loc>https://cryptoandpi.netlify.app/</loc>
+       <lastmod>2021-01-08T18:27:16+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>1.0000</priority>
   </url>
   <url>
-       <loc>https://grantsjournal.cf/index.html</loc>
-       <lastmod>2020-12-17T16:34:06+00:00</lastmod>
+       <loc>https://cryptoandpi.netlify.app/index.html</loc>
+       <lastmod>2021-01-08T18:27:16+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
-       <loc>https://grantsjournal.cf/make_a_website.html</loc>
-       <lastmod>2020-12-17T16:34:06+00:00</lastmod>
+       <loc>https://cryptoandpi.netlify.app/make_a_website.html</loc>
+       <lastmod>2021-01-08T18:27:16+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
-       <loc>https://grantsjournal.cf/ad_networks.html</loc>
-       <lastmod>2020-12-17T16:34:06+00:00</lastmod>
+       <loc>https://cryptoandpi.netlify.app/ad_networks.html</loc>
+       <lastmod>2021-01-08T18:27:16+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
-       <loc>https://grantsjournal.cf/all_posts.html</loc>
-       <lastmod>2020-12-17T16:34:06+00:00</lastmod>
+       <loc>https://cryptoandpi.netlify.app/get_started_with_bitcoin.html</loc>
+       <lastmod>2021-01-08T18:27:16+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://cryptoandpi.netlify.app/mining-on-pi.html</loc>
+       <lastmod>2021-01-08T18:27:16+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://cryptoandpi.netlify.app/all_posts.html</loc>
+       <lastmod>2021-01-08T18:27:16+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
