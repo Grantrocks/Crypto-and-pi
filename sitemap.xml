@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://cryptoandpi.netlify.app/</loc>
+  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://cryptoandpi.netlify.app/index.html</loc>
+  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cryptoandpi.netlify.app/make_a_website.html</loc>
+  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cryptoandpi.netlify.app/ad_networks.html</loc>
+  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cryptoandpi.netlify.app/get_started_with_bitcoin.html</loc>
+  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cryptoandpi.netlify.app/mining-on-pi.html</loc>
+  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cryptoandpi.netlify.app/all_posts.html</loc>
+  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
