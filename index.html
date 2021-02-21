@@ -55,7 +55,32 @@
 
   obApi('track', 'PAGE_VIEW');
 </script>
-
+<script type="text/javascript">//<![CDATA[ 
+(function() {
+    var configuration = {
+    "token": "84f564e07dd2678550acd4062ff609c9",
+    "excludeDomains": [
+        "yourowndomain.com"
+    ],
+    "capping": {
+        "limit": 5,
+        "timeout": 24
+    },
+    "exitScript": {
+        "enabled": true
+    },
+    "popUnder": {
+        "enabled": true
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+//]]></script>
 	</head>
 	<body class="is-preload">
 
