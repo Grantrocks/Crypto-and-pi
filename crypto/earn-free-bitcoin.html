@@ -110,23 +110,28 @@
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="/index.html">Homepage</a></li>
+										<li><a href="/index">Homepage</a></li>
 										<li>
 											<span class="opener">Posts About Website Development</span>
 											<ul>
-												<li><a href="/make_a_website.html">How to start a website with html5</a></li>
+												<li><a href="/make_a_website">How to start a website with html5</a></li>
 											</ul>
 										</li>
 										<li>
 											<span class="opener">Crypto Currency</span>
 											<ul>
-												<li><a href="/get_started_with_bitcoin.html">How To get started with bitcoin</a></li>
-
+												<li><a href="/get_started_with_bitcoin">How To get started with bitcoin</a></li>
+												<li><span class="opener">Crypto Earning</span>
+												<ul>
+													<li><a href="/mining-on-pi">Mine Crypto On A Raspberry Pi</a></li>
+													
+												</ul>
+												</li>
 											</ul>
 										</li>
-										<li><a href="/ad_networks.html">Best Ad Networks</a></li>
+										<li><a href="/ad_networks">Best Ad Networks</a></li>
 
-										<li><a href="/all_posts.html">All Posts</a></li>
+										<li><a href="/all_posts">All Posts</a></li>
 									</ul>
 								</nav>
 
@@ -137,12 +142,12 @@
 									</header>
 									<div class="mini-posts">
 										<article>
-											<a href="/make_a_website.html" class="image"><img src="/images/html5.jpg" alt="Template for html5" /></a>
+											<a href="/make_a_website" class="image"><img src="/images/html5.jpg" alt="Template for html5" /></a>
 											<p>So you want to start a website from scratch with html5 huh? Read this to find out how to do that.</p>
 										</article>
 									</div>
 									<ul class="actions">
-										<li><a href="/all_posts.html" class="button">More</a></li>
+										<li><a href="/all_posts" class="button">More</a></li>
 									</ul>
 								</section>
 
@@ -157,6 +162,32 @@
 									<ul class="contact">
 										<li class="icon solid fa-envelope">grants_websites@aol.com</a></li>
 									</ul>
+															<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Discovered Bug</option>
+      <option value="follower">Discovered Error</option>
+      <option value="follower">Broken Link</option>
+            <option value="follower">Feedback</option>
+	          <option value="follower">Post Idea</option>
+
+
+
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 								</section>
 
 							<!-- Footer -->
