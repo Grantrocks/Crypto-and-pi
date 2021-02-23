@@ -9,38 +9,63 @@
 
 <url>
   <loc>https://cryptoandpi.netlify.app/</loc>
-  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
+  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://cryptoandpi.netlify.app/index.html</loc>
-  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
+  <loc>https://cryptoandpi.netlify.app/make_a_website</loc>
+  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cryptoandpi.netlify.app/ad_networks</loc>
+  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cryptoandpi.netlify.app/get_started_with_bitcoin</loc>
+  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cryptoandpi.netlify.app/crypto/earn-free-bitcoin</loc>
+  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cryptoandpi.netlify.app/mining-on-pi</loc>
+  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cryptoandpi.netlify.app/all_posts</loc>
+  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cryptoandpi.netlify.app/index.html</loc>
+  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cryptoandpi.netlify.app/make_a_website.html</loc>
-  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cryptoandpi.netlify.app/ad_networks.html</loc>
-  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cryptoandpi.netlify.app/get_started_with_bitcoin.html</loc>
-  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://cryptoandpi.netlify.app/mining-on-pi.html</loc>
-  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://cryptoandpi.netlify.app/ad_networks.html</loc>
+  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cryptoandpi.netlify.app/all_posts.html</loc>
-  <lastmod>2021-01-13T16:07:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
