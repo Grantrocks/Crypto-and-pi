@@ -1,72 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://cryptoandpi.netlify.app/</loc>
-  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://cryptoandpi.netlify.app/make_a_website</loc>
-  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cryptoandpi.netlify.app/ad_networks</loc>
-  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cryptoandpi.netlify.app/get_started_with_bitcoin</loc>
-  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cryptoandpi.netlify.app/crypto/earn-free-bitcoin</loc>
-  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cryptoandpi.netlify.app/mining-on-pi</loc>
-  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cryptoandpi.netlify.app/all_posts</loc>
-  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cryptoandpi.netlify.app/index.html</loc>
-  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cryptoandpi.netlify.app/make_a_website.html</loc>
-  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cryptoandpi.netlify.app/get_started_with_bitcoin.html</loc>
-  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cryptoandpi.netlify.app/ad_networks.html</loc>
-  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cryptoandpi.netlify.app/all_posts.html</loc>
-  <lastmod>2021-02-23T15:43:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://cryptoandpi.netlify.app/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cryptoandpi.netlify.app/mining-on-pi</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cryptoandpi.netlify.app/ad_networks.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cryptoandpi.netlify.app/ad_networks</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cryptoandpi.netlify.app/index.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cryptoandpi.netlify.app/get_started_with_bitcoin</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cryptoandpi.netlify.app/make_a_website.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cryptoandpi.netlify.app/get_started_with_bitcoin.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cryptoandpi.netlify.app/make_a_website</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cryptoandpi.netlify.app/all_posts.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cryptoandpi.netlify.app/crypto/earn-free-bitcoin</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cryptoandpi.netlify.app/all_posts</loc>
+    <changefreq>daily</changefreq>
+  </url>
 </urlset>
